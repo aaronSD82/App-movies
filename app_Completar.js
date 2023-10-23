@@ -11,7 +11,7 @@ const BTN_ANTERIOR = document.getElementById('pagAnt');
 const BTN_SIGUIENTE = document.getElementById('pagSig');
 let page = 0;
 let totalPaginas;
-//let paginaActual = datos.page;
+
 
 function cargarDatos(page) {
 	CONTROL.innerHTML = "";
@@ -150,14 +150,8 @@ function comprobarEnlaceNulo(key, url, enlace) {
 
 	} else enlace.innerText = "No hay videos";
 
+
 }
-
-/* INPUT_SEARCH.addEventListener("change", ()=>{
-
-	page = 0;
-}) */
-
-
 
 BOTON_BUSCAR.addEventListener("click", () => {
 
@@ -202,28 +196,6 @@ BTN_SIGUIENTE.addEventListener("click", () => {
 
 
 
-
-
-/* btnSiguiente.addEventListener('click', () => { //Siguiente peli falta siguiente pagina
-	//if (pagina < 1000) {
-	//pagina += 1;
-	//cargarPeliculas();
-
-
-	//}
-}); */
-
-/* btnAnterior.addEventListener('click', () => { //Siguiente peli falta siguiente pagina
-	if (pagina > 1) {
-		pagina -= 1;
-		//cargarPeliculas();
-	}
-}); */
-
-//Completar LLamada a la Api con Fetch,consulta las páhinas
-
-
-//La discover end-point me devuelve 20 pelis por pagina
 
 
 
