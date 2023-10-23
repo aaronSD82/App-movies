@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #e0e0e0;
+  color: #1d1d1d;
+}
+
+header {
+
+  height: 92vh;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #ff6600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor .pelicula {
+  text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.paginacion {
+  position: fixed;
+  bottom: 0;
+  background: #100a1f;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.paginacion button {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background: #241744;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease all;
+}
+
+.paginacion button:hover {
+  background: #137c32;
+}
+
+.carousel-inner {
+
+  background-color: #1a4c6375;
+}
+
+#pagSig {
+
+  background: #137c32;
+}
+
+#pagAnt {
+
+  background: #137c32;
+}
+
+#pagSig:hover {
+
+  background: #241744;
+}
+
+#pagAnt:hover {
+
+  background: #241744;
+}
+
+img {
+
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+
+#buscar {
+
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+  transition: 0.3s ease all;
+}
+
+#paginasTotales{
+  display: flex;
+  width: 150px;
+  height: inherit;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;  
+}
+
+a{
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #241744;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 50px;
+}
+
+#buscar:hover{
+  background-color: #137c32;
+}
+
+h2{
+  font-weight: 400;
+  color: #241744;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 1.3em;
+  color: antiquewhite;
+}
